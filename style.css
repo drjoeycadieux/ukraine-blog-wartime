@@ -1,4 +1,113 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  display: inline;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.navbar {
+  padding: 15px;
+  background-color: #3737cd;
+}
+
+.navbar ul {
+  display: block;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 2px;
+}
+
+.navbar ul li a {
+  color: black;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: lightslategray;
+}
+
+.header {
+  padding: 35px;
+  background-color: #161616;
+}
+
+.header h1 {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header p {
+  color: #99b319;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Footer Styles */
+.site-footer {
+  background: #0057b7;
+  /* Ukrainian blue */
+  color: white;
+  padding: 30px 0;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-footer p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Disclaimer Banner */
+.disclaimer-banner {
+  background-color: #fff3cd;
+  /* Light yellow warning color */
+  color: #856404;
+  padding: 12px 40px 12px 20px;
+  border-left: 5px solid #ffc107;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.disclaimer-banner p {
+  margin: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.close-banner {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #856404;
+}
+
+.close-banner:hover {
+  color: #000;
 }

@@ -4,12 +4,107 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Ukraine Blog</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="blog-card.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  Hello world
+  <div class="disclaimer-banner">
+    <p>⚠️ <strong>Independent Source:</strong> This website provides unofficial updates on the Ukraine war. For verified
+      information, refer to <u>government websites</u> or trusted news organizations.</p>
+    <button class="close-banner" onclick="this.parentElement.style.display='none'">×</button>
+  </div>
+  <div class="navbar navbar-menu">
+    <ul>
+      <li>
+        <p class="title">Ukraine Blog</p>
+      </li>
+
+      <li>
+        <a href="#">Home</a>
+      </li>
+
+      <li>
+        <a href="#">About</a>
+      </li>
+
+      <li>
+        <a href="#">Blog</a>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="header header-top">
+    <h1>Russia invaded Ukraine</h1>
+    <p>Ukraine blog | War Time</p>
+  </div>
+
+  <div class="container">
+    <h1>War in Ukraine: Latest Updates</h1>
+
+    <!-- Blog Card 1 -->
+    <div class="blog-card">
+      <div class="card-image">
+        <img src="https://source.unsplash.com/random/600x400?ukraine-war" alt="Ukraine Conflict">
+      </div>
+      <div class="card-content">
+        <span class="category military">Military</span>
+        <h2>Ukraine's 2024 Counteroffensive Struggles</h2>
+        <p>Ukrainian forces face heavily fortified Russian defenses. Western aid delays impact progress...</p>
+        <div class="card-footer">
+          <span class="date">March 15, 2024</span>
+          <a href="#" class="read-more">Read More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Card 2 -->
+    <div class="blog-card">
+      <div class="card-image">
+        <img src="https://source.unsplash.com/random/600x400?refugees" alt="Ukraine Refugees">
+      </div>
+      <div class="card-content">
+        <span class="category humanitarian">Humanitarian</span>
+        <h2>Over 6 Million Displaced Since 2022</h2>
+        <p>UN reports record numbers of Ukrainians fleeing to Poland, Germany, and beyond. Many cannot return...</p>
+        <div class="card-footer">
+          <span class="date">February 28, 2024</span>
+          <a href="#" class="read-more">Read More →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog Card 3 -->
+    <div class="blog-card">
+      <div class="card-image">
+        <img src="https://source.unsplash.com/random/600x400?nato" alt="NATO Summit">
+      </div>
+      <div class="card-content">
+        <span class="category politics">Politics</span>
+        <h2>NATO Approves $50B Military Aid Package</h2>
+        <p>Allies pledge long-term support amid U.S. funding delays. Russia warns of escalation...</p>
+        <div class="card-footer">
+          <span class="date">April 2, 2024</span>
+          <a href="#" class="read-more">Read More →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>©
+        <script type="text/javascript">document.write(new Date().getFullYear());</script> Ukraine War Updates. All
+        rights
+        reserved.
+      </p>
+      <p>This is an independent blog covering the Russia-Ukraine conflict.</p>
+      <p>For official information, refer to government sources.</p>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 
